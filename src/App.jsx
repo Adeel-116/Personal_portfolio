@@ -6,19 +6,13 @@ import Profile from "./Components/Profile";
 import NavBar from "./Components/Navigation/NavBar";
 import Button from "./Components/Button";
 import { IoIosSend } from "react-icons/io";
-import ProfilePicture from "./Components/ProfilePicture";
-import DetailsInfo from "./Components/DetailsInfo"
-import BgPicture from "./Components/BgPicture"
-import Testimonial from "./Components/Testimonial/Testimonial";
-import Blogs from "./Components/Blogs/Blogs"
-import PortfolioSection from "./Components/PortfolioSection/PortfolioSection";
+import ServicesPage from "./Components/Services&Pricing/ServicesPage";
+import ContactPage from "./Components/ContactPage/ContactPage";
 
 function App() {
   return (
     <>
       <div className="w-full min-h-screen bg-white overflow-hidden">
-
-
         {/* left */}
         <div className="w-[17%] h-screen fixed flex">
           {/* Left Navbar */}
@@ -36,21 +30,16 @@ function App() {
             <div>
               <Icon iconName={<FaMoon />} />
             </div>
-
           </div>
 
           {/* Right Navbar */}
           <div className="w-[83%] navigator px-6 bg-lightWhite relative">
-
             {/* Profile Div */}
             <div className="profile py-8">
               <Profile />
             </div>
 
-
             <div className="relative w-full h-full flex flex-col gap-y-7">
-
-
               {/* Line */}
               <div className="w-full h-[1px] bg-lightGreen"></div>
 
@@ -59,25 +48,19 @@ function App() {
                 <NavBar />
               </div>
 
-
               {/* Last Navbar button */}
               <div className="absolute bottom-[33%] button w-full h-auto flex justify-center">
                 <div className="w-[70%]">
                   <Button buttonText={"Hire Me"} buttonIcon={<IoIosSend />} />
                 </div>
               </div>
-
             </div>
-
           </div>
-
         </div>
 
-
         {/* Right */}
-        <main className="w-[83%]  h-[700vh] ml-[17%]">
-          {/* Page 1 */}
-          <section className="flex justify-center items-center h-screen w-full  flex-col">
+        <main className="w-[83%]  h-auto ml-[17%]">
+          {/* <section className="flex justify-center items-center h-screen w-full  flex-col">
             <div className="w-[80%] h-auto py-4 flex">
 
               
@@ -115,11 +98,10 @@ function App() {
             </div>
 
             <span className="w-full h-0.5 bg-lightGreen mt-20"></span>
-          </section>
+          </section> */}
 
      
-          {/* Page 2 */}
-          <section className= "h-screen w-full flex justify-center items-center">
+        {/* <section className= "h-screen w-full flex justify-center items-center">
           <div className="w-[80%] h-auto flex">
 
 
@@ -146,32 +128,34 @@ function App() {
 
           </div>
           </div>
-          </section>
+        </section> */}
 
 
 
-          <section className="w-full h-auto flex">
+          {/* <section className="w-full h-auto flex">
                 <BgPicture />
-          </section>
+          </section> */}
 
-          <section className="testimonial w-full h-auto mt-32">
+          {/* <section className="testimonial w-full h-auto mt-32">
             <Testimonial />
-          </section>
+          </section> */}
 
 
-          <section>
+          {/* <section>
             <div className="w-full h-auto mt-32 flex justify-center items-center">
               <Blogs />
             </div>
-          </section>
+          </section> */}
 
-          <section>
+          {/* <section>
             <div className="w-full h-auto mt-32 flex justify-center items-center">
               <PortfolioSection />
             </div>
-          </section>
+          </section> */}
+
+          {/* <ContactPage /> */}
         </main>
-      </div >
+      </div>
     </>
   );
 }
