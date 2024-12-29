@@ -1,11 +1,59 @@
 import React from 'react'
+import { MdOutlineShoppingCart } from "react-icons/md";
+import { FaMoon } from "react-icons/fa6";
+import NavBar from './NavBar';
+import Button from '../Button';
+import { IoIosSend } from "react-icons/io";
+import Icon from '../Icon';
+import Profile from './Profile';
+
 
 function Header() {
     return (
-        <div>
+        <div className="2xl:w-[18%] md:w-full xl:w-[21.1%] lg:w-[27%] bg-whiteGray lg:h-screen lg:fixed lg:flex ">
+           
+            <div className="lg:w-[18%] md:w-[100%] h-auto lg:h-screen lg:py-5 md:px-7 md:py-4 flex lg:flex-col md:flex-row lg:items-center lg:gap-y-3">
+                <div className="icon bg-lightGreen w-8 h-8 p-1 rounded-full flex justify-center items-center">
+                    <img
+                        src="../src/assets/profilePicture/icon3.png"
+                        alt=""
+                        className="w-5 h-5"
+                    />
+                </div>
+    
+                <div>
+                    <Icon iconName={<MdOutlineShoppingCart />} bgtrue={true} />
+                </div>
+                <div>
+                    <Icon iconName={<FaMoon />} bgtrue={true} />
+                </div>
+           
+            </div>
 
+
+            <div className="lg:w-[95%] lg:block  md:hidden  navigator px-6 bg-lightWhite relative">
+                <div className="profile py-8">
+                    <Profile />
+                </div>
+                <div className="relative w-full h-full flex flex-col gap-y-7">
+                    <div className="w-full h-[1px] bg-lightGreen"></div>
+                    <div>
+                        <NavBar />
+                    </div>
+                    <div className="absolute bottom-[33%] button w-full h-auto flex justify-center">
+                        <div className="xl:w-[70%] lg:w-[80%]">
+                            <Button buttonText={"Hire Me"} buttonIcon={<IoIosSend />} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div className='w-full bg-white h-auto px-7 fixed py-4 bottom-0 z-30'>
+                <NavBar />
+            </div>
         </div>
-    )
+    );
 }
 
-export default Header
+export default Header;

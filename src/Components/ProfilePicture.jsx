@@ -3,7 +3,7 @@ import 'react'
 function ProfilePicture() {
     return (
 
-        <div className="w-[330px] h-[407px] bg-red-500  relative">
+        <div className="2xl:w-[330px] 2xl:h-[407px] md:w-[320px] md:h-[407px] relative">
             {/* Background Image */}
             <div
                 className="absolute z-10 bg-cover w-full h-full bg-center"

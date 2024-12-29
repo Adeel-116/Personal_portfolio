@@ -1,3 +1,6 @@
+body {
+  font-family: "Poppins", serif;
+}
 .animation {
   animation-name: animi1;
   animation-duration: 6s; 

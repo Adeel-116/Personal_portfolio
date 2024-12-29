@@ -9,15 +9,19 @@ function BgPicture() {
 
             <div className="w-[80%] h-auto">
                 <h1 className='text-6xl font-bold text-white w-2/3 leading-[65px]'>Let’s Work together on your next Project</h1>
-                <p className="text-white mt-4 text-[18px] font-normal">
-                I am available for freelance projects. Hire me and get your project done.
-                </p>
+
+                <p className="text-white mt-4 text-[18px] font-normal">I am available for freelance projects. Hire me and get your project done.</p>
+       
             </div>
 
-            <div className="w-[20%] h-auto flex justify-center items-center">
+            <div
+            
+            className="w-[20%] h-auto flex justify-center items-center">
+       
                 <div className="w-[90%] ">
                 <Button buttonText={"Let's get in touch"} buttonIcon={<IoIosSend />} />
                 </div>
+
             </div>
             </div>
         </div>

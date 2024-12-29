@@ -2,17 +2,17 @@ import React from 'react'
 
 function DetailsInfo({number, text}) {
   return (
-    <div className="flex items-center flex-row">
+    <div className="flex items-center xl:flex-row ">
       {/* Number */}
-      <p className="text-[5rem] font-bold text-lightGreen">{number}</p>
+      <p className="2xl:text-[5rem] md:text-[4rem] font-bold text-lightGreen">{number}</p>
       {/* Divider */}
 
       <div className='flex justify-center items-center gap-2 p-1'>
-      <div className="border-l border-gray-300 h-10 "></div>
+      <div className="border-l border-gray-300 h-10"></div>
 
       {/* Text */}
       <div>
-        <p className="text-[15px] font-normal w-16 text-gray-800">{text}</p>
+        <p className="md:text-[15px] font-normal xl:w-16 lg:w-full text-gray-800">{text}</p>
       </div>
       </div>
 
