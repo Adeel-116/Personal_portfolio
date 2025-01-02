@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../Button'
+import Button from '../../src/Components/Button'
 import { IoIosSend } from 'react-icons/io'
 import ServiceCard from './ServiceCard'
 import FAQ from './FAQ'

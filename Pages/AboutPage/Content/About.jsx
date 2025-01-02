@@ -1,14 +1,15 @@
 import React from 'react'
 import { IoIosSend } from 'react-icons/io'
-import ProfilePicture from '../ProfilePicture'
-import DetailsInfo from "../DetailsInfo"
-import Button from '../Button'
-import App from '../../App'
-import ContactPage from "../ContactPage/ContactPage"
-import Blogs from "../Blogs/Blogs"
-import Testimonial from "../Testimonial/Testimonial"
-import BgPicture from "../BgPicture"
-import PortfolioSection from "../PortfolioSection/PortfolioSection"
+import ProfilePicture from '../../../src/Components/ProfilePicture'
+import DetailsInfo from "../../../src/Components/DetailsInfo"
+import Button from '../../../src/Components/Button'
+import ContactPage from "../../ContactPage/ContactPage"
+import Blogs from "../../Blogs/Blogs"
+import Testimonial from "../../../src/Components/Testimonial/Testimonial"
+import BgPicture from "../../../src/Components/BgPicture"
+import PortfolioSection from "../../PortfolioSection/PortfolioSection"
+import TechnicalSkills from '../../../src/Components/TechnicalSkills'
+import CardSection from '../../../src/Components/CardSection'
 
 
 function Main_Component() {
@@ -54,13 +55,13 @@ function Main_Component() {
                 </section>
 
 
-                <section className="h-screen w-full flex justify-center items-center">
-                    <div className="w-[80%] h-auto flex">
+                <section className="h-auto w-full flex justify-center items-center">
+                    <div className="w-[80%] h-auto ">
 
                         <div className="w-full h-auto  flex flex-row">
-                            <div className="w-[80%] h-auto  ">
+                            <div className="w-[80%] h-auto ">
                                 <div className="w-full flex flex-col">
-                                    <div className="w-1/3 h-auto  border-l-4 border-lightGreen flex items-center ">
+                                    <div className="w-2/3 h-auto border-l-4 border-lightGreen flex items-center">
                                         <h1 className="pl-2.5 p-1 text-6xl text-black font-bold">What I do</h1>
                                     </div>
                                     <div>
@@ -78,6 +79,9 @@ function Main_Component() {
                             </div>
 
                         </div>
+                        <CardSection />
+                        <TechnicalSkills />
+
                     </div>
                 </section>
 

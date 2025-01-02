@@ -4,7 +4,7 @@ function TestimonialCard({name}) {
     return (
         <div className='w-[25%] h-auto bg-lightWhite flex-shrink-0'>
             <div className='w-full h-full border-l-[3.5px] py-10 flex flex-col gap-y-5 items-center justify-center border-lightGreen'>
-                <div className='text w-[85%]  text-xl'>
+                <div className='text w-[85%]  text-xl select-none'>
                     <h1>Portfolio is the perfect theme for business that want to create a stylish and functional website</h1>
                 </div>
 

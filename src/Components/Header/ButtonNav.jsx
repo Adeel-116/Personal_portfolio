@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
+import {NavLink} from "react-router-dom"
 
-function ButtonNav({ buttonText, buttonIcon}) {
+function ButtonNav({ buttonText, buttonIcon, route}) {
     const [defaultColor, setDefaultColor] = useState("#DCDCDC");
     const [hovered, setHovered] = useState(false); 
 
     return (
+       
         <div
             className='w-full rounded-[9px] lg:py-1.5 md:py-3 px-2 flex flex-row lg:gap-x-1 md:gap-x-[1px]'
             style={{

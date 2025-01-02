@@ -31,7 +31,7 @@ function Header() {
             </div>
 
 
-            <div className="lg:w-[95%] lg:block  md:hidden  navigator px-6 bg-lightWhite relative">
+            <div className="lg:w-[95%] lg:block md:hidden navigator px-6 bg-lightWhite relative">
                 <div className="profile py-8">
                     <Profile />
                 </div>
@@ -49,7 +49,7 @@ function Header() {
             </div>
 
 
-            <div className='w-full bg-white h-auto px-7 fixed py-4 bottom-0 z-30'>
+            <div className='w-full bg-white h-auto lg:hidden md:block px-7 fixed py-4 bottom-0 z-30'>
                 <NavBar />
             </div>
         </div>

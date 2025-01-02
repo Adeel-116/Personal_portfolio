@@ -2,11 +2,30 @@ import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Icon from "../Icon"
+import Icon from "../../src/Components/Icon"
 import CardSection from './CardSection';
 import Input from './Input'
-import Button from '../Button';
+import Button from '../../src/Components/Button';
 function ContactPage() {
+
+    const data = {
+        name: 'asif',
+        email: 'asif@gmail.com',
+        phone: '032434545454',
+        location: 'pakistan',
+        message: 'this is a test email from Asif, I hope you are understand'
+
+    }
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+
+       console.log("Hello world")
+
+
+      };
+
+
+
     const svgPath = {
         phone: (
             <path d="M176,16H80A24,24,0,0,0,56,40V216a24,24,0,0,0,24,24h96a24,24,0,0,0,24-24V40A24,24,0,0,0,176,16Zm8,200a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V40a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8ZM140,60a12,12,0,1,1-12-12A12,12,0,0,1,140,60Z" />
@@ -102,7 +121,7 @@ function ContactPage() {
                             </div>
 
                             <div className='w-[15%] h-auto'>
-                                <Button buttonText={"Send Message"} buttonIcon={""}/>
+                                <Button buttonText={"Send Message"} buttonIcon={""} onClick={handleSubmit}/>
                             </div>
                         </div>
 
