@@ -9,7 +9,7 @@ import {NavLink} from "react-router-dom"
 
 function NavBar() {
   return (
-    <div className='w-full h-auto flex lg:flex-col lg:gap-y-3 lg:justify-center md:justify-between items-center lg:py-2'>
+    <div className='w-full h-auto flex lg:flex-col lg:gap-y-3 lg:justify-center justify-between items-center lg:py-2'>
       <div className='lg:w-full h-auto rounded-lg'>
         <ButtonNav buttonText={"About Us"} buttonIcon={<FaRegUser />} />
       </div>
@@ -17,7 +17,7 @@ function NavBar() {
         <ButtonNav buttonText={"Portfolio"} buttonIcon={<MdOutlineWorkOutline />} />
       </div>
       <div className='lg:w-full h-auto'>
-        <ButtonNav buttonText={"Services & pricing"} buttonIcon={<FaCogs />} />
+        <ButtonNav buttonText={"Services"} buttonIcon={<FaCogs />} />
       </div>
       <div className='lg:w-full h-auto'>
         <ButtonNav buttonText={"Resume"} buttonIcon={<FaFileAlt />} />

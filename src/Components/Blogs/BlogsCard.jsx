@@ -3,7 +3,7 @@ import React from 'react'
 function BlogsCard() {
 
     return (
-        <div className='w-[430px] h-auto rounded-lg overflow-hidden flex flex-col items-center group'>
+        <div className='w-full h-auto rounded-lg overflow-hidden flex flex-col items-center group'>
             <div className="relative w-full h-auto">
                 <img
                     className="rounded-lg w-full"
@@ -16,7 +16,7 @@ function BlogsCard() {
             <div className='w-[90%] h-auto py-5'>
                 <p>April 18, 2024 &nbsp; / &nbsp; Articles</p>
                 <div className='relative w-full h-auto'>
-                    <h1 className='mt-1 w-full font-semibold text-2xl transition-colors duration-500 ease-in-out group-hover:text-lightGreen'>
+                    <h1 className='mt-1 w-full font-semibold lg:text-2xl text-[20px] transition-colors duration-500 ease-in-out group-hover:text-lightGreen'>
                         7 Great Web Development Languages to Learn this Year
                     </h1>
                 </div>

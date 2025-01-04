@@ -2,10 +2,10 @@ import React from 'react'
 import { FaFacebookF } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import Icon from "../../src/Components/Icon"
-import CardSection from './CardSection';
+import Icon from '../Icon';
+import CardSection from'./CardSection';
 import Input from './Input'
-import Button from '../../src/Components/Button';
+import Button from '../Button';
 function ContactPage() {
 
     const data = {

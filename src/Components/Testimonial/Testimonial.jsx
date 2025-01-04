@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react'
 import TestimonialCard from './TestimonialCard'
+import Heading from '../Heading';
 
 
 function Testimonial() {
@@ -67,7 +68,7 @@ function Testimonial() {
                 if (scrollDirection === 'forward') {
                     index++;
                     setCircle(index)
-                    newScrollPosition = scrollPosition + 315;
+                    newScrollPosition = scrollPosition + 320;
                     if (newScrollPosition >= maxScroll) {
                         newScrollPosition = maxScroll;
                         setScrollDirection('backward');
@@ -75,7 +76,7 @@ function Testimonial() {
                 } else {
                     index--;
                     setCircle(index)
-                    newScrollPosition = scrollPosition - 315;
+                    newScrollPosition = scrollPosition - 320;
                     if (newScrollPosition <= 0) {
                         newScrollPosition = 0;
                         setScrollDirection('forward');
@@ -92,23 +93,13 @@ function Testimonial() {
 
 
     return (
-        <div className='w-full h-auto flex flex-col items-center gap-y-16 justify-center'>
-            <div className="w-[80%] h-auto">
-                <div className="w-full flex flex-col">
-                    <div className="w-1/3 h-auto  border-l-4 border-lightGreen flex items-center ">
-                        <h1 className="pl-2.5 p-1 text-6xl text-black font-bold">Testimonials</h1>
-                    </div>
-                    <div>
-                        <p className="text-gray-700 mt-2 text-[16px] font-medium w-[55%] ">
-                            See how I've helped our clients succeed. IT’s a highly Customizable,creative, modern, visually stunning and Bootstrap5 HTML5 Template.
-                        </p>
-                    </div>
-                </div>
+        <div className='w-full h-auto flex  py-16 flex-col items-center gap-y-16 justify-center ' >
+            <div className="2xl:w-[80%] xl:w-[85%] w-[90%] h-auto ">
+                <Heading heading={"Testimonial"} paragraph={"See how I've helped our clients succeed. IT’s a highly Customizable,creative, modern, visually stunning and Bootstrap5 HTML5 Template."} link={""}/>
             </div>
 
 
-            <div className='relative slider flex flex-col gap-y-7 w-[80%] h-auto p-1 '
-
+            <div className='2xl:w-[80%] xl:w-[85%] w-[90%] relative slider flex flex-col gap-y-7  h-auto p-1 '
 
                 style={{ cursor: 'grab' }}>
 
@@ -121,14 +112,14 @@ function Testimonial() {
                     onMouseUp={handleDragEnd}
                     onMouseLeave={handleDragEnd}
                 >
-                    <TestimonialCard className="flex-shrink-0" name={'P'} />
-                    <TestimonialCard className="flex-shrink-0" name={'A'} />
-                    <TestimonialCard className="flex-shrink-0" name={'k'} />
-                    <TestimonialCard className="flex-shrink-0" name={'i'} />
-                    <TestimonialCard className="flex-shrink-0" name={'s'} />
-                    <TestimonialCard className="flex-shrink-0" name={'t'} />
-                    <TestimonialCard className="flex-shrink-0" name={'a'} />
-                    <TestimonialCard className="flex-shrink-0" name={'n'} />
+                    <TestimonialCard className="flex-shrink-0" name={'USA'} />
+                    <TestimonialCard className="flex-shrink-0" name={'Canada'} />
+                    <TestimonialCard className="flex-shrink-0" name={'India'} />
+                    <TestimonialCard className="flex-shrink-0" name={'Pakistan'} />
+                    <TestimonialCard className="flex-shrink-0" name={'China'} />
+                    <TestimonialCard className="flex-shrink-0" name={'Russia'} />
+                    <TestimonialCard className="flex-shrink-0" name={'Iran'} />
+                    <TestimonialCard className="flex-shrink-0" name={'Vitenam'} />
                 </div>
 
                 <div className='circles w-full h-auto flex space-x-2 justify-center items-center'>

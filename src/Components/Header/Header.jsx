@@ -10,9 +10,9 @@ import Profile from './Profile';
 
 function Header() {
     return (
-        <div className="2xl:w-[18%] md:w-full xl:w-[21.1%] lg:w-[27%] bg-whiteGray lg:h-screen lg:fixed lg:flex ">
+        <div className="2xl:w-[17%] sm:w-full xl:w-[20%] lg:w-[25%] bg-whiteGray lg:h-screen lg:fixed lg:flex">
            
-            <div className="lg:w-[18%] md:w-[100%] h-auto lg:h-screen lg:py-5 md:px-7 md:py-4 flex lg:flex-col md:flex-row lg:items-center lg:gap-y-3">
+            <div className="lg:w-[18%] sm:w-[100%] h-auto lg:h-screen lg:py-5 sm:px-7 sm:py-4 flex lg:flex-col sm:flex-row lg:items-center lg:gap-y-3">
                 <div className="icon bg-lightGreen w-8 h-8 p-1 rounded-full flex justify-center items-center">
                     <img
                         src="../src/assets/profilePicture/icon3.png"
@@ -31,7 +31,7 @@ function Header() {
             </div>
 
 
-            <div className="lg:w-[95%] lg:block md:hidden navigator px-6 bg-lightWhite relative">
+            <div className="lg:w-[95%] lg:block hidden px-6 bg-lightWhite relative">
                 <div className="profile py-8">
                     <Profile />
                 </div>
@@ -49,7 +49,7 @@ function Header() {
             </div>
 
 
-            <div className='w-full bg-white h-auto lg:hidden md:block px-7 fixed py-4 bottom-0 z-30'>
+            <div className='w-full bg-white h-auto lg:hidden block px-7 fixed py-4 bottom-0 z-30'>
                 <NavBar />
             </div>
         </div>

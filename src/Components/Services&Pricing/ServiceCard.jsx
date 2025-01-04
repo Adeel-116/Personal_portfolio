@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../../src/Components/Button'
+import Button from '../Button'
 import { FaArrowRight } from "react-icons/fa";
 function ServiceCard() {
   return (

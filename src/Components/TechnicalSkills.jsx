@@ -17,9 +17,9 @@ const skills = [
 
 const SkillCard = ({ skills }) => {
   return (
-    <div className="p-4 flex justify-center flex-wrap gap-8">
+    <div className="p-4 flex xl:justify-center flex-row flex-wrap 2xl:gap-8 gap-y-5 sm:gap-x-16">
       {skills.map((skill) => (
-        <div key={skill.name} className="w-[280px]">
+        <div key={skill.name} className="md:w-[280px] sm:w-[250px] w-full">
           <div className="flex justify-between mb-2">
             <span className="text-gray-800 font-medium">{skill.name}</span>
             <span className="text-gray-500 text-sm">{skill.level}%</span>
@@ -39,7 +39,7 @@ const SkillCard = ({ skills }) => {
 const TechnicalSkills = () => {
   return (
     <div className="w-full mx-auto py-16">
-      <h2 className="text-4xl font-bold text-gray-800 mb-12">
+      <h2 className="sm:text-5xl text-4xl font-bold text-gray-800 2xl:mb-12 sm:mb-5">
         Technical Skills
       </h2>
       <SkillCard skills={skills} />
