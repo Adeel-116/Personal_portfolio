@@ -4,7 +4,7 @@ function Button({ buttonText, buttonIcon, onClick}) {
 
   return (
     <>
-      <div className="relative flex flex-row gap-x-3 md:gap-x-2 justify-center items-center rounded-full py-[0.9rem] bg-lightGreen overflow-hidden group"
+      <div className="relative flex flex-row gap-x-3 md:gap-x-2 justify-center items-center rounded-full py-[1rem] bg-lightGreen overflow-hidden group"
       onClick={onClick}
       >
         {/* Background Animation */}

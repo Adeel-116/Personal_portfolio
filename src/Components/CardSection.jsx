@@ -33,7 +33,7 @@ const CardSection = () => {
       <h2 className="sm:text-5xl text-4xl font-bold text-gray-800">
         What I Offer
       </h2>
-      <div className="flex justify-center items-center bg-red-300">
+      <div className="flex justify-center items-center ">
         <div className="grid grid-cols-1 gap-6 pt-7 max-w-6xl sm:grid-cols-2 xl:grid-cols-3">
           {cards.map((card, index) => (
             <Card

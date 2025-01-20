@@ -17,7 +17,7 @@ import Heading from '../Heading'
 function Main_Component() {
     return (
         <div>
-            <main className="xl:w-[83%] lg:w-[75%] h-auto xl:ml-[20%] 2xl:ml-[17%] lg:ml-[25%] ">
+            <main className="">
                 <section className="flex justify-center items-center xl:h-screen sm:h-auto  w-full flex-col">
                     <div className="2xl:w-[80%] lg:w-[85%] sm:w-[83%] w-[90%] xl:mt-0 lg:mt-20  h-auto py-4 flex xl:flex-row flex-col lg:gap-y-6">
                         <div className="xl:w-[60%] sm:w-[100%] h-auto xl:py-7 py-14">
