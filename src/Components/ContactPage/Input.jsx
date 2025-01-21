@@ -3,7 +3,7 @@ import React from 'react'
 
 function Input({type, placeholder}) {
   return (
-    <div className="w-1/2 h-auto">
+    <div className="sm:w-1/2 w-full h-auto">
         <input
         type={type}
         placeholder={placeholder}

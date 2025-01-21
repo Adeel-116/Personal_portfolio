@@ -41,9 +41,9 @@ function ContactPage() {
     return (
         <main className="w-full min-h-screen">
             <section className="w-full flex justify-center items-center h-auto border-darkGray border-b-[1px]">
-                <div className="w-[75%] mt-10 flex flex-col gap-y-2.5 justify-center items-center h-auto py-12">
+                <div className="2xl:w-[75%] w-[90%]  mt-10 flex flex-col gap-y-2.5 justify-center items-center h-auto py-12">
                     <h1 className="text-[2.1rem] font-bold">Contact</h1>
-                    <p className="w-[70%] text-center">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to <a href="#" className="text-teal-500 underline">evans@yourwebsite.com</a>. Want to get connected? Follow me on the social channels below.</p>
+                    <p className="lg:w-[75%] md:w-[85%] w-full sm:text-[16px] text-[15px] sm:text-center">Interested in hiring me for your project or just want to say hi? You can fill in the contact form below or send me an email to <a href="#" className="text-teal-500 underline">evans@yourwebsite.com</a>. Want to get connected? Follow me on the social channels below.</p>
                     <div className='icons flex flex-row gap-2 mt-1.5'>
                         <div>
                             <Icon iconName={<FaLinkedin />} />
@@ -60,13 +60,13 @@ function ContactPage() {
             </section>
 
             <section className="w-full flex justify-center items-center h-auto py-12">
-                <div className="w-[81%] h-auto">
+                <div className="2xl:w-[81%]  w-[90%] h-auto">
                     <div className="w-full flex flex-col">
                         <div className="w-full h-auto  border-l-4 border-lightGreen flex items-center ">
-                            <h1 className="pl-2.5 p-2 text-6xl text-black font-bold">Contact Details</h1>
+                            <h1 className="pl-2.5 p-2  lg:text-6xl md:text-5xl  text-4xl  text-black font-bold">Contact Details</h1>
                         </div>
                         <div>
-                            <p className="text-gray-700 mt-2 text-[16px] font-normal w-[55%]">
+                            <p className="text-gray-700 mt-2 sm:text-[16px] text-[15px] font-normal lg:w-[55%] w-[90%]">
                                 If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
                             </p>
                         </div>
@@ -74,24 +74,24 @@ function ContactPage() {
 
 
 
-                    <div className='w-full h-auto flex space-x-4 py-10'>
+                    <div className='w-full h-auto flex sm:flex-nowrap flex-wrap sm:space-x-4 sm:py-10'>
                         <CardSection text={"Phone"} para={"+92 3112126587"} path={svgPath.phone} />
                         <CardSection text={"Location"} para={"Example street, Pakistan"} path={svgPath.location} />
                         <CardSection text={"Email"} para={"adeel@gmail.com"} path={svgPath.Email} />
                     </div>
 
 
-                    <div className='w-full h-[45vh]'>
+                    <div className='w-full xl:h-[45vh] h-[40vh]'>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7058099.341989812!2d63.69565314443664!3d30.255961609064105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38db52d2f8fd751f%3A0x46b7a1f7e614925c!2sPakistan!5e0!3m2!1sen!2s!4v1735029041003!5m2!1sen!2s" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
 
 
-                    <div className="w-full flex flex-col py-20">
+                    <div className="w-full flex flex-col sm:py-20 py-10">
                         <div className="w-full h-auto  border-l-4 border-lightGreen flex items-center ">
-                            <h1 className="pl-2.5 p-2 text-6xl text-black font-bold">Get in Touch</h1>
+                            <h1 className="pl-2.5 p-2 lg:text-6xl md:text-5xl text-4xl  text-black font-bold">Get in Touch</h1>
                         </div>
                         <div>
-                            <p className="text-gray-700 mt-2 text-[16px] font-normal w-[55%]">
+                            <p className="text-gray-700 mt-2 sm:text-[16px] text-[15px] font-normal xl:w-[55%] lg:w-[75%]">
                                 If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.
                             </p>
                         </div>
@@ -99,14 +99,14 @@ function ContactPage() {
 
 
 
-                    <div className='w-full h-auto py-10 px-10 border-[1px] border-darkGray rounded-[30px]'>
+                    <div className='w-full h-auto mb-10 sm:py-10 sm:px-10 px-5 py-7 border-[1px] border-darkGray rounded-[30px]'>
 
-                        <div className='w-full flex flex-col gap-y-7 h-auto p-1'>
-                            <div className='w-full flex gap-x-7 h-auto'>
+                        <div className='w-full flex flex-col sm:gap-y-7 gap-y-4 h-auto p-1'>
+                            <div className='w-full flex sm:flex-nowrap flex-wrap gap-3 h-auto'>
                                 <Input type={"text"} placeholder={"Your Name*"} />
                                 <Input type={"text"} placeholder={"Your Email*"} />
                             </div>
-                            <div className='w-full flex gap-x-7 h-auto'>
+                            <div className='w-full flex sm:flex-nowrap flex-wrap  gap-3 h-auto'>
                                 <Input type={"phone"} placeholder={"Phone*"} />
                                 <Input type={"text"} placeholder={"Location*"} />
                             </div>
@@ -120,7 +120,7 @@ function ContactPage() {
                                 ></textarea>
                             </div>
 
-                            <div className='w-[15%] h-auto'>
+                            <div className='w-[167px] h-auto'>
                                 <Button buttonText={"Send Message"} buttonIcon={""} onClick={handleSubmit}/>
                             </div>
                         </div>
