@@ -1,10 +1,11 @@
 import React from 'react'
 import Button from "../Components/Button"
 import { IoIosSend } from 'react-icons/io'
+import bgImg from '../assets/bg.png'
 
 function BgPicture() {
     return (
-        <div className="w-full h-auto bg-cover bg-center flex items-center sm:py-10 py-5 justify-center" style={{ backgroundImage: "url('../../src/assets/profilePicture/bg.png')" }}>
+        <div className="w-full h-auto bg-cover bg-center flex items-center sm:py-10 py-5 justify-center" style={{ backgroundImage: `url('${bgImg}')` }}>
             <div className='2xl:w-[80%] lg:w-[90%] w-[90%] h-auto py-16 flex flex-wrap xl:flex-nowrap flex-row'>
 
                 <div className="2xl:w-[80%] sm:w-[90%] w-full h-auto">

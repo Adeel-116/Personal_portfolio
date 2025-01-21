@@ -6,7 +6,7 @@ import Button from '../Button';
 import { IoIosSend } from "react-icons/io";
 import Icon from '../Icon';
 import Profile from './Profile';
-
+import logo from '../../assets/icon3.png';
 
 function Header() {
     return (
@@ -15,7 +15,7 @@ function Header() {
             <div className="lg:w-[18%] sm:w-[100%] h-auto lg:h-screen lg:py-5 sm:px-7 sm:py-4 flex lg:flex-col sm:flex-row lg:items-center lg:gap-y-3">
                 <div className="icon bg-lightGreen w-8 h-8 p-1 rounded-full flex justify-center items-center">
                     <img
-                        src="../src/assets/profilePicture/icon3.png"
+                        src={logo}
                         alt=""
                         className="w-5 h-5"
                     />

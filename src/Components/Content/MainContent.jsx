@@ -3,7 +3,6 @@ import { IoIosSend } from 'react-icons/io'
 import ProfilePicture from '../ProfilePicture'
 import DetailsInfo from "../DetailsInfo"
 import Button from '../Button'
-import ContactPage from "../ContactPage/ContactPage"
 import Blogs from "../Blogs/Blogs"
 import Testimonial from "../Testimonial/Testimonial"
 import BgPicture from "../BgPicture"

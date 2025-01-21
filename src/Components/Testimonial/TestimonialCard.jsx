@@ -1,5 +1,5 @@
 import React from 'react'
-
+import testimonialPicture from '../../assets/testimonialPicture.png'
 function TestimonialCard({name}) {
     return (
         <div className='2xl:w-[25%] xl:w-[30%] md:w-[35%] sm:w-[40%] w-[100%] h-auto bg-lightWhite flex-shrink-0'>
@@ -12,7 +12,7 @@ function TestimonialCard({name}) {
                     <div className="w-[48px] h-[48px] bg-yellow-800 bg-center rounded-full ">
                         <img
                             className="w-full h-full object-cover rounded-full"
-                            src="../../../src/assets/profilePicture/testimonialPicture.png"
+                            src={testimonialPicture}
                             alt="Testimonial"
                         />
                     </div>

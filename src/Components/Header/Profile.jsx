@@ -3,14 +3,15 @@ import { CiFacebook } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import Icon from '../Icon';
-
+import wave from '../../assets/wave.png'
+import personalPhoto from '../../assets/Picture.png'
 function Profile() {
     return (
         <>
             <div className='w-full h-auto flex flex-col justify-center items-center'>
                 <div className="relative w-24 h-24 p-0.5 rounded-full  flex justify-center items-center">
                     <img
-                        src="../../src/assets/profilePicture/Picture.png"
+                        src={personalPhoto}
                         alt="Profile"
                         className="w-full h-full rounded-full object-cover border-2 border-lightGreen"
                     />
@@ -18,7 +19,7 @@ function Profile() {
                     <div className='absolute h-8 w-8 bg-white bottom-2 right-0 rounded-full'>
                         <div className='flex justify-center items-center text-yellow-200 p-0.5'>
                             <img
-                                src="../../src/assets/profilePicture/wave.png"
+                                src={wave}
                                 alt="Profile"
                                 className="w-8 h-8  object-contain"
                             />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import TagsButton from './TagsButton'
 import { GoArrowUpRight } from "react-icons/go";
+import ProfilePicture from '../../assets/blogPicture.png';
 function PortfolioCard() {
         const [windowWidth, setWindowWidth] = useState(window.innerWidth)
 
@@ -25,7 +26,7 @@ function PortfolioCard() {
             <div className="relative xl:w-[100%] sm:w-[100%] w-[100%] h-auto flex justify-center items-center flex-col">
                 <img
                     className="w-full hover:scale-105 transition-transform duration-300 ease-in-out"
-                    src="../../../src/assets/profilePicture/blogPicture.png"
+                    src={ProfilePicture}
                     alt=""
                 />
 

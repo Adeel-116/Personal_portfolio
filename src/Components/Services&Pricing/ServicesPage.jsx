@@ -75,7 +75,7 @@ function ServicesPage() {
                             <FAQ />
                         </div>
                         <div className='md:w-1/2 md:block hidden p-1 sm:flex justify-end  h-uto'>
-                            <img src="../../../src/assets/profilePicture/FAQ_pic.webp" alt="" />
+                            <img src="../../../src/assets/FAQ_pic.webp" alt="" />
                         </div>
                     </div>
                 </div>

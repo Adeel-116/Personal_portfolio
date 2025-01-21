@@ -1,4 +1,5 @@
 import 'react'
+import bgPic from '../assets/pictures1.png'
 
 function ProfilePicture() {
     return (
@@ -7,7 +8,7 @@ function ProfilePicture() {
             {/* Background Image */}
             <div
                 className="absolute z-10 bg-cover w-full h-full bg-center"
-                style={{ backgroundImage: 'url("/src/assets/profilePicture/pictures1.png")'}}
+                style={{ backgroundImage: `url(${bgPic})`}}
             ></div>
 
             {/* Overlay */}

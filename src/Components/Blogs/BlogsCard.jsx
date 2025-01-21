@@ -7,7 +7,7 @@ function BlogsCard() {
             <div className="relative w-full h-auto">
                 <img
                     className="rounded-lg w-full"
-                    src="../../../src/assets/profilePicture/blogPicture.png"
+                    src="../../../src/assets/blogPicture.png"
                     alt=""
                 />
                 <div className="absolute inset-0 bg-lightGreen transform -translate-x-full opacity-0 transition-all duration-500 ease-in-out group-hover:translate-x-0 group-hover:opacity-45 rounded-lg"></div>

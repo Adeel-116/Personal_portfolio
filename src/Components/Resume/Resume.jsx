@@ -5,7 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaEnvelope } from "react-icons/fa";
 import { FaGlobe } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import Picture from "../../assets/profilePicture/Picture.png";
+import Picture from "../../assets/Picture.png";
 
 // Data for dynamic rendering
 const profile = {
