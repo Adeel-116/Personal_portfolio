@@ -55,7 +55,7 @@ function FAQ() {
         return (
           <div
             key={index}
-            className="w-full h-auto flex flex-col border-[1px] px-8 py-8 transition-colors duration-800 ease-in-out"
+            className="w-full h-auto flex flex-col border-[1px] sm:px-8 sm:py-8 p-3 transition-colors duration-800 ease-in-out"
             style={{ borderColor: color }}
           >
             <div className="w-full flex flex-row justify-between items-center">
@@ -64,7 +64,7 @@ function FAQ() {
                 style={{ color: color }}
               >
                 <div
-                  className="p-[2px] rounded-full bg-iconGray flex transition-colors duration-800 ease-in-out"
+                  className="p-[3px] rounded-full bg-iconGray flex transition-colors duration-800 ease-in-out"
                   style={{ backgroundColor: color }}
                 >
                   <svg

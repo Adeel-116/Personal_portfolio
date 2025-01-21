@@ -3,7 +3,7 @@ import Button from '../Button'
 import { FaArrowRight } from "react-icons/fa";
 function ServiceCard() {
   return (
-    <div className='w-[430px] h-auto flex justify-center items-center bg-whiteGray border-[1px] border-darkGray'>
+    <div className='xl:basis-1/2 sm:basis-[45%] basis-[90%] h-auto flex justify-center items-center bg-whiteGray border-[1px] border-darkGray'>
         
         <div className='w-[90%] h-auto'>
         <div className='w-full h-auto py-6  flex flex-col justify-center items-center  border-b-[2px] border-darkGray'>
@@ -57,7 +57,7 @@ function ServiceCard() {
 
 
         <div className='w-full flex justify-center items-center py-6 '>
-            <div className='w-[50%] h-auto'>
+            <div className='w-[170px] h-auto'>
             <Button buttonText={"Choose Basic"} buttonIcon={<FaArrowRight />} />
             </div>
         </div>
