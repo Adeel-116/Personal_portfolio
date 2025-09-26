@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import Icon from '../Icon';
 import wave from '../../assets/wave.png'
-import personalPhoto from '../../assets/Picture.png'
+import personalPhoto from "../../assets/profile2.jpg";
 function Profile() {
     return (
         <>
@@ -28,7 +28,7 @@ function Profile() {
                 </div>
 
                 <div>
-                    <h1 className='text-center font-medium text-2xl'>M.Adeel</h1>
+                    <h1 className='text-center font-medium text-2xl'>Daniela Vezzi</h1>
                     <p className='text-center font-light 2xl:text-[16px] xl:text-[14px]'>Software Developer</p>
                 </div>
 

@@ -8,7 +8,7 @@ import ServicesPage from './Components/Services&Pricing/ServicesPage.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import PortfolioPage from './Components/Portfolio/PortfolioPage.jsx'
 import Resume from './Components/Resume/Resume.jsx'
-
+import Loading from './Components/Loading.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
       <BrowserRouter>

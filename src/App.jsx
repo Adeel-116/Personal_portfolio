@@ -4,7 +4,6 @@ import Button from "./Components/Button";
 import { IoIosSend } from "react-icons/io";
 import ProfilePicture from "./Components/ProfilePicture"
 import DetailsInfo from "./Components/DetailsInfo"
-// import Testimonial from "./Components/Testimonial/Testimonial"
 
 function App() {
   return (
@@ -126,11 +125,11 @@ function App() {
             </div>
           </section> */}
 
-          {/* <section>
+          <section>
             <div className="w-full h-auto mt-32 flex justify-center items-center">
               <PortfolioSection />
             </div>
-          </section> */}
+          </section>
 
           {/* <ContactPage /> */}
         </main>

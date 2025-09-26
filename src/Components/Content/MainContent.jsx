@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { IoIosSend } from 'react-icons/io'
 import ProfilePicture from '../ProfilePicture'
 import DetailsInfo from "../DetailsInfo"
@@ -11,18 +11,20 @@ import TechnicalSkills from '../TechnicalSkills'
 import CardSection from '../CardSection'
 import App from '../../App'
 import Heading from '../Heading'
-
+import Loading from '../Loading'
 
 function Main_Component() {
+   
     return (
         <div>
+            
             <main className="">
                 <section className="flex justify-center items-center xl:h-screen sm:h-auto  w-full flex-col">
                     <div className="2xl:w-[80%] lg:w-[85%] sm:w-[83%] w-[90%] xl:mt-0 lg:mt-20  h-auto py-4 flex xl:flex-row flex-col lg:gap-y-6">
                         <div className="xl:w-[60%] sm:w-[100%] h-auto xl:py-7 py-14">
                             <div className="flex flex-col justify-center">
-                                <h1 className="2xl:text-[21px] sm:text-[21px] font-medium text-gray-600">HI, I’M A FREELANCER</h1>
-                                <h2 className="2xl:text-7xl sm:text-6xl text-5xl font-bold text-lightGreen">Developer</h2>
+                                <h1 className="2xl:text-[21px] sm:text-[21px] font-medium text-gray-600">HI, I’M A FREELANCER &</h1>
+                                <h2 className="2xl:text-7xl sm:text-6xl text-5xl font-bold text-lightGreen">Software Developer</h2>
                                 <p className="text-gray-700 mt-4 md:text-[17px] text-[15px] font-medium">
                                     I’m a a passionate web and app developer with a strong foundation in modern technologies and development practices. With a focus on creating responsive, user-friendly interfaces and efficient backend systems, I specialize in web development, and mobile applications solutions. I aim to provide tailored solutions that help businesses thrive in the digital world
                                     Explore my <a href="#" className="text-teal-500 underline">blog</a>, <a href="#" className="text-teal-500 underline">project portfolio</a>, and <a href="#" className="text-teal-500 underline">online resume</a>.
@@ -91,6 +93,7 @@ function Main_Component() {
                 </section>
 
             </main>
+
         </div>
     )
 }

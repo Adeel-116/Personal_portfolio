@@ -1,4 +1,3 @@
-import React from 'react'
 import { MdOutlineShoppingCart } from "react-icons/md";
 import { FaMoon } from "react-icons/fa6";
 import NavBar from './NavBar';
@@ -12,7 +11,7 @@ function Header() {
     return (
         <div className="2xl:w-[17%] sm:w-full xl:w-[20%] lg:w-[25%] bg-whiteGray lg:h-screen lg:fixed lg:flex">
            
-            <div className="lg:w-[18%] sm:w-[100%] h-auto lg:h-screen lg:py-5 sm:px-7 sm:py-4 flex lg:flex-col sm:flex-row lg:items-center lg:gap-y-3">
+            <div className="lg:w-[18%] sm:w-[100%] h-auto md:flex hidden lg:h-screen lg:py-5 sm:px-7 sm:py-4  lg:flex-col sm:flex-row lg:items-center lg:gap-y-3">
                 <div className="icon bg-lightGreen w-8 h-8 p-1 rounded-full flex justify-center items-center">
                     <img
                         src={logo}
