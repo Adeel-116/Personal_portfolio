@@ -1,5 +1,3 @@
-import React from 'react'
-import './Loading.css'
 function Loading() {
   return (
     <div className='w-full h-screen bg-lightWhite relative flex justify-center items-center'>
