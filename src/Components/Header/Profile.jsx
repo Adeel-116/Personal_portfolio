@@ -1,10 +1,9 @@
-import React from 'react'
 import { CiFacebook } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa6";
 import { CiLinkedin } from "react-icons/ci";
 import Icon from '../Icon';
 import wave from '../../assets/wave.png'
-import personalPhoto from "../../assets/profile2.jpg";
+import personalPhoto from "../../assets/pic3.jpg";
 function Profile() {
     return (
         <>

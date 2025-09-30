@@ -1,5 +1,5 @@
 import 'react'
-import bgPic from '../assets/profile2.jpg'
+import bgPic from '../assets/pic3.jpg'
 
 function ProfilePicture() {
     return (
